@@ -1,0 +1,45 @@
+.body{
+    background:  rgba(0, 0, 0, 0.706) url(/assets/imgen/Por3.jpg);
+    background-position: 0% 50%;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+}
+
+.contactos{
+    padding: 10% 0%;
+    background-color: #a0a7fa4c;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1000px) {
+    /*Nav*/
+    .col{
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1500px){
+
+    .project{
+        width: 100%;
+        margin: 2% 1%;
+        height: 34rem;
+    }
+    
+    h1{
+        font-size: 3rem;
+      
+    }
+    .titulitos{
+        font-size: 0.9rem;
+    }
+   
+}
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+.slider-container {
+    display:flex;
+    width: 100%;
+    overflow-x:auto;
+    scroll-snap-type: x mandatory;
+
+}
+
+h3{
+    text-align: start;
+    width: 100%;
+    margin: 15% 0%;
+    padding: auto;
+    font-size: 2rem;
+}
+  
+img {
+    width: 20%;  
+    padding: 3%;  
+    align-items: center;
+   object-fit:fill;
+    scroll-snap-align: center;
+}
