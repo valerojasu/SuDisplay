@@ -1,0 +1,20 @@
+
+.frase{
+    background: rgb(19, 25,49 , 0.9) url(https://img.freepik.com/foto-gratis/vista-borrosa-pasillo-plantas_1203-1080.jpg?w=826&t=st=1676517197~exp=1676517797~hmac=ca7e0cc6b622bc42eca0f3528e31faf6024333b7786d8b99d55b8e1814a5e6be);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: 100%;
+    width: 100%;
+    margin: auto;
+    padding: 15% 2%;
+    text-align: center;
+    color: white;
+}
+
+.frase p{
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+    width: 80%;
+    margin: 0% 15% 0% 10%;
+}

@@ -1,0 +1,41 @@
+.body{
+    background: black;
+}
+
+.contactos{
+    padding: 10% 0%;
+    background-color: #bcd424ab;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1000px) {
+    /*Nav*/
+    .col{
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1500px){
+
+    .project{
+        width: 100%;
+        margin: 2% 1%;
+        height: 34rem;
+    }
+    
+    h1{
+        font-size: 3rem;
+      
+    }
+    .titulitos{
+        font-size: 0.9rem;
+    }
+   
+}
+
+
+
+
+
+
+

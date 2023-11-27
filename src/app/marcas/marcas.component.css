@@ -1,0 +1,67 @@
+.slider-container {
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    overflow-x:auto;
+    align-content: center;
+    scroll-snap-type: x mandatory;
+
+}
+
+.marca{
+    align-content: center;
+    background: white;
+    display:initial;
+    text-align: center;
+
+}
+.marcat{
+    text-align: start;
+    width: 100%;
+    margin: 15% 0%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding: auto;
+    font-size: 2rem;
+}
+  
+.Logof {
+    width: 50%;  
+    margin: 5% 0%;
+    object-fit:fill;
+    scroll-snap-align: center;
+}
+
+@media screen and (min-width: 100px) and (max-width: 499px){
+
+
+    .marcat{
+    
+        font-size: 1rem;
+    }
+      
+    .Logof {
+        width: 80%;  
+        margin: 10% 0%;
+      
+    }
+    
+   
+
+}
+@media screen and (min-width: 500px) and (max-width: 1000px){
+   
+    .marcat{
+    
+        font-size: 1.7rem;
+    }
+      
+    .Logof {
+        width: 80%;  
+        margin: 8% 0%;
+      
+    }
+    
+   
+
+}

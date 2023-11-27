@@ -1,0 +1,85 @@
+.navbar{
+    background-color: white;
+    line-height: 1.8rem;    
+    padding: 1% 0%;
+
+}
+    
+.logo{
+    width:10%;
+}
+    
+.menutit{
+    font-size: 1.3rem;
+    align-items: center;
+    display: flex;
+    color:#104d80;;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0% 3%;
+    font-family: 'Raleway', sans-serif;
+
+}
+.menutit:hover{
+    color: #bcd424;
+    cursor: pointer;
+     
+}
+.menuitem{
+        align-content: center;
+        margin: 0.4%;
+        width: 100%;
+        justify-content: start;
+        display: inline-flex;
+
+}
+
+.divi{
+    padding: 0% 9%;
+}
+
+.container-fluid{
+    display: flex;
+    width: 90%;
+    flex-wrap: inherit;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 499px) {
+
+    .logo{
+        width:20%;
+    
+    }
+        
+    .menutit{
+        font-size: 1rem;
+    }
+   
+    .menuitem{
+           width: 80%;
+    }
+    
+    
+}
+@media screen and (min-width: 500px) and (max-width: 1000px){
+
+    .logo{
+        width:10%;
+    
+    }
+        
+    .menutit{
+        font-size: 1.2rem;
+    }
+   
+    .menuitem{
+           width: 80%;
+    }
+    
+   
+    
+}
+

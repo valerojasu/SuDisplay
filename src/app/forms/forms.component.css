@@ -1,0 +1,133 @@
+.project{
+    width: 100%;
+    height: auto;
+    padding: 6%;
+    margin-bottom: 10%;
+    color: black;
+    background-color: #fff;
+}
+
+h1{
+    width: 100%;
+    font-size: 4rem;
+    margin-bottom: 3%;
+    line-height: 1;
+    text-align: left;
+}
+
+.titulitos{
+    font-size: 0.8rem;
+    margin:2% 0%;
+    width: 100%;
+    font-weight: 100%;
+    letter-spacing: 3px;
+
+}
+
+.col-12{
+    margin: 2% 0%;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding: 2% 10%;    
+    float: none;
+    width: 100%;
+    align-self: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 0.7rem;
+    line-height: 1.6;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 100px) and (max-width: 300px) {
+    /*Nav*/
+    .project{
+        width: 100%;
+        margin: 2% 1%;
+        height: 25rem;
+
+    }
+
+    .col{
+        width: 20rem;
+    }
+    
+    h1{
+        font-size: 1rem;
+      
+    }
+    .titulitos{
+        font-size: 0.6rem;
+    }
+
+    .button {
+       align-content: center;
+       text-align: center;
+        width: 70%;
+        margin: 5% 15%;
+        font-size: 0.6rem;  
+    }
+
+    
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    /*Nav*/
+    .project{
+        width: 100%;
+        margin: 2% 1%;
+        height: 30rem;
+
+    }
+
+    .col{
+        width: 20rem;
+    }
+    
+    h1{
+        font-size: 1.4rem;
+      
+    }
+    .titulitos{
+        font-size: 0.9rem;
+    }
+
+    .button {
+        align-content: center;
+        text-align: center;
+        width: 80%;
+        margin: 10%;
+        font-size: 0.6rem;  
+     }
+
+}
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+    /*Nav*/
+    .project{
+        width: 100%;
+        margin: 2% 1%;
+        height: auto;
+
+    }
+
+    .col{
+        width: 30rem;
+    }
+    
+    h1{
+        font-size: 2rem;
+      
+    }
+    .titulitos{
+        font-size: 0.9rem;
+    }
+
+}

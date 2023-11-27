@@ -1,0 +1,149 @@
+.parra{
+    font-size: 1rem;
+    font-weight: 100%;
+    letter-spacing: 3px;
+    text-align: start;
+}
+.titu1{
+    margin: 8% 0%;
+    font-size: 3rem;
+    line-height: 1;
+    text-align: center;
+}
+
+.titu2{
+    font-size: 1.7rem;
+    margin: 3% 0%; 
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.titu3{
+    font-size: 0.8rem;
+    margin: 3% 0%; 
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.disp{
+    width: 70%;
+}
+
+.foto{
+    padding: 2% 0%;
+}
+
+.parrafo{
+    width: 40%;
+    margin: 0% 2%;
+}
+
+.infor{ 
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    margin: 4% 0%;
+    align-items: center;
+}
+
+@media screen and (min-width: 100px) and (max-width: 499px){
+
+    .parra{
+        font-size: 0.5rem;
+        margin: 0% 3% 4%;
+    }
+    
+    .titu1{
+        font-size: 1.2rem;
+    }
+    
+    .titu2{
+        font-size: 0.7rem;
+    
+    }
+    
+    .titu3{
+        font-size: 0.5rem;
+    }
+    
+    .disp{
+        width: 80%;
+    }
+   
+
+    .infor{
+        text-align: center;
+    }
+    .col{
+        align-items: center;
+    }
+ 
+  
+    
+}
+
+@media screen and (min-width: 500px) and (max-width: 899px){
+
+    .parra{
+        font-size: 0.7rem;
+        margin: 0% 3% 4%;
+    }
+    
+    .titu1{
+        font-size: 1.3rem;
+    }
+    
+    .titu2{
+        font-size: 0.9rem;
+    
+    }
+    
+    .titu3{
+        font-size: 0.6rem;
+    }
+    
+    .disp{
+        width: 80%;
+    }
+    
+    .infor{
+        text-align: center;
+    }
+    .col{
+        align-items: center;
+    }
+ 
+  
+    
+}
+
+@media screen and (min-width: 900px) and (max-width: 1400px){
+
+    .parra{
+        font-size: 0.8rem;
+        margin: 2% 0%;
+
+    }
+    .titu1{
+        font-size: 1.4rem;
+    }
+    
+    .titu2{
+        font-size: 1rem;
+    
+    }
+    
+    .titu3{
+        font-size: 0.6rem;
+    }
+    
+    .disp{
+        width: 70%;
+    }
+ 
+  
+    
+}
+
+

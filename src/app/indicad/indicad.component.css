@@ -1,0 +1,229 @@
+.indi{ 
+    width: 100%;
+    padding: 8% 0%;
+    color: white;
+    background: rgb(19, 25,49 , 0.9) url(https://img.freepik.com/foto-gratis/resumen-difuminado-supermercado-grandes-almacenes_1203-8782.jpg?w=2000&t=st=1701109758~exp=1701110358~hmac=a89dbe3e261f8a3eb324b4e2c433d0fc41f5ea485d81850fc00181e965142168);
+    background-position: 0% 50%;
+    background-size: cover;
+    align-content: center;
+    display: flex;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+}
+
+.app{ 
+    width: 100%;
+    margin: 0%;   
+    padding: 1% 5% 8%; 
+    color: white;
+    background: rgb(19, 25,49 , 0.9) url(https://img.freepik.com/foto-gratis/resumen-difuminado-supermercado-grandes-almacenes_1203-8782.jpg?w=2000&t=st=1701109758~exp=1701110358~hmac=a89dbe3e261f8a3eb324b4e2c433d0fc41f5ea485d81850fc00181e965142168);
+    background-position: 0% 50%;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+    background-position: center; 
+}
+
+.indic{ 
+    width: 100%;
+    margin: auto;
+    height: auto;
+    font-size: 0.6rem; 
+    font-family: 'Raleway', sans-serif;
+}
+
+/*primera seccion*/
+
+.titulo{
+    font-size: 2rem;
+    
+}
+.desc{
+    font-size: 1.5rem;
+}
+
+/*Segunda seccion*/
+.titulo2{
+    margin:7% 0%;
+    font-size: 2.5rem;
+    width: 100%;
+    text-align: center;
+
+}
+
+.desc2{
+    font-size: 1.8rem;
+    width: 100%;
+    margin-bottom: 5%;
+    text-align: center;
+
+}
+
+.foto{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.informacion{ 
+    width: 100%;
+    align-items: center;
+    margin: 2%;
+    
+}
+ 
+.card{
+    background-color: #bed226;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    margin: 2% 0%;
+    border: solid  #bcd310;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    justify-content: space-between;
+}
+
+.card h3{
+    font-size: 1rem;
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 499px){
+   
+    /*titulo en azulito*/
+   .titulo{
+        font-size: 1rem;
+        margin:30% 5%;
+    }
+    .desc{
+        font-size: 0.8rem;
+        margin:30% 0%;
+
+    }
+
+    /*descrip imagen*/
+
+    .desc2{
+        font-size: 0.7rem;
+        margin:5%;
+
+    }
+    
+    .foto{
+        width: 70%;
+        margin: 10% 5%;
+        align-content: center;
+    }
+    .titulo2{
+        font-size: 0.8rem;
+        margin:5%;
+
+    }
+
+    .col-6{
+        margin: 1%;
+    }
+
+    /*descrip imagen*/
+
+    
+    .informacion{ 
+        padding: 1% 0%;  
+    }
+     
+    .card{
+        margin: 2% 0%;
+        width: 100%;   
+    }
+
+    .card h3{
+        font-size: 0.8rem;
+    }
+   
+
+}
+@media screen and (min-width: 500px) and (max-width: 799px){
+   
+    /*titulo en azulito*/
+
+    .titulo{
+         font-size: 1.4rem;
+         margin:30% 0%;
+     }
+     .desc{
+         font-size: 1rem;
+         margin:30% 0%;
+ 
+     }
+     /*indicadores*/
+
+
+     .titulo2{
+        font-size: 1.3rem;
+    }
+
+    .desc2{
+        font-size: 1rem;
+    }
+    
+    .foto{
+        width: 70%;
+    }
+     
+     .informacion{ 
+         padding: 1% 0%;  
+     }
+      
+     .card{
+         margin: 2% 0%;
+         width: 100%;   
+     }
+ 
+     .card h3{
+         font-size: 0.8rem;
+     }
+    
+ 
+ }
+@media screen and (min-width: 800px) and (max-width: 1400px){
+       
+
+    
+    .titulo{
+        font-size: 1.7rem;
+    }
+    .desc{
+        font-size: 1.3rem;
+    }
+
+
+    .titulo2{
+        font-size: 1.7rem;
+    }
+
+    .desc2{
+        font-size: 1.5rem;
+    }
+    
+    img{
+        width: 60%;
+    }
+    
+    .informacion{ 
+        padding: 2% 0%;  
+    }
+     
+    .card{
+        margin: 2% 1%;
+        padding: 1%;  
+    }
+
+    .card h3{
+        font-size: 1.2rem;
+    }
+   
+}
+

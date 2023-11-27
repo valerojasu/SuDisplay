@@ -1,0 +1,182 @@
+/* Quienes*/
+.project{
+    width: 100%;
+    padding: 10% 7%;
+    color: white;
+    background:  rgba(0, 0, 0, 0.816) url(https://img.freepik.com/foto-gratis/resumen-difuminado-supermercado-grandes-almacenes_1203-8782.jpg?w=2000&t=st=1701109758~exp=1701110358~hmac=a89dbe3e261f8a3eb324b4e2c433d0fc41f5ea485d81850fc00181e965142168);
+    background-position: 0% 50%;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    border-top: 0.2rem solid;
+}
+
+.atitulo{
+    width: 100%;
+    font-size: 2.8rem;
+    line-height: 1;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    margin: 2% 0%;
+}
+
+.parrafo1{
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    font-family: Poppins,sans-serif;
+}
+
+
+/* Especializa*/
+.project1 {
+    width: 100%;
+    padding: 10% 2% ;
+    color: black;
+    background-color: white;
+}
+
+.atitulo1{
+    font-size: 2rem;
+    line-height: 1;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    margin: 2% 0%;
+   
+}
+
+.parrafo2{
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    width: 100%;
+
+}
+
+
+
+
+
+.frase{
+    background: rgb(19, 25,49 , 0.9) url(https://img.freepik.com/foto-gratis/vista-borrosa-pasillo-plantas_1203-1080.jpg?w=826&t=st=1676517197~exp=1676517797~hmac=ca7e0cc6b622bc42eca0f3528e31faf6024333b7786d8b99d55b8e1814a5e6be);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: 100%;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    padding: 15% 2%;
+    color: white;
+
+}
+
+.frasep{
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+}
+
+.encima{
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+
+   
+}
+
+.encima:hover{
+    color: grey;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bi{
+    font-size: 2rem;
+    margin: auto;
+}
+
+.formulario{
+    padding: 5%;
+    background-color: #bcd424ab;
+}
+
+
+
+
+@media screen and (min-width: 100px) and (max-width: 899px){
+
+ 
+    .atitulo{
+        font-size: 1.6rem;
+       
+    }
+    
+    .atitulo1{
+        font-size: 1.5rem;
+       
+    }
+    .parrafo1{
+        font-size: 0.6rem;
+    }
+    
+    .parrafo2{
+        font-size: 0.7rem;
+    }
+     
+    .frasep{
+        font-size: 1.2rem;
+    }
+    
+    .encima{
+        font-size: 1rem;
+
+    }
+   
+    
+    .bi{
+        font-size: 1rem;
+    }
+    
+   
+}
+
+
+@media screen and (min-width: 900px) and (max-width: 1500px){
+
+    
+    .atitulo{
+        font-size: 2rem;
+       
+    }
+    
+    .atitulo1{
+        font-size: 1.7rem;  
+    }
+
+    .parrafo1{
+        font-size: 0.8rem;
+    }
+    
+    .parrafo2{
+        font-size: 0.9rem;
+    }
+     
+    .frasep{
+        font-size: 1.5em;
+    }
+    
+    .encima{
+        font-size: 1.3rem;
+
+    }
+   
+    .bi{
+            font-size: 1rem;
+    }    
+    
+   
+}
+
+
+
